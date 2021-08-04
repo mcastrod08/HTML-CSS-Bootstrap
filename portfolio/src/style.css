@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+}
+
+
+#header {
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  color: #000 !important
+}
+
+.nav-item a:hover {
+  background-color: #2dc997;
+  padding: 3px 3px;
+  border-radius: 50px
+}
+
+.nav-item a:hover {
+  color: #fff !important
+}
+
+
+header img {
+  min-width: 50px;
+  height: 50px
+}
+
+#welcome-section {
+  margin: 0;
+  display: block;
+  height: 100vh;
+}
+
+#welcome-section h1 {
+  margin-left: 10rem;
+  margin-top: 15rem
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background: url("https://cdn.hipwallpaper.com/m/5/29/X0ZLxU.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #welcome-section {
+    background-attachment: fixed;
+  }
+}
+
+#welcome-section:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.37);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#welcome-section .welcome-section-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #7fffd4
+}
+
+
+
+@media (max-width: 768px) {
+  #welcome-section h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#welcome-section h2 {
+  color: #7fffd4;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #welcome-section h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#welcome-section .btn-get-started,
+.plus-section .btn-plus {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+
+}
+
+.plus-section {
+  margin: 20px 0px;
+}
+
+.btn-get-started {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-plus {
+  border: 2px solid #2dc997;
+  color: #2dc997;
+}
+
+
+
+#welcome-section .btn-get-started:hover,
+.plus-section .btn-plus:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+  text-decoration: none;
+  color: #fff;
+}
+
+.section-header .section-title {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #999;
+}
+
+
+.about-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding-top: 140px;
+}
+
+.about-text ul li {
+  margin-bottom: 20px;
+  display: flex;
+
+}
+
+
+
+@media (max-width: 768px) {
+  .about-section img {
+    width: 100%;
+    justify-content: center;
+    padding-top: 3rem;
+
+  }
+
+  .about-text ul {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-section img {
+    max-width: 208px;
+    max-height: 395px;
+    padding-top: 3rem;
+
+  }
+
+  .about-text ul {
+    padding-top: 2rem;
+  }
+
+  .about-text p {
+    margin: 0 4px;
+    text-align: justify
+  }
+}
+
+@media (min-width: 992px) {
+  .about-section img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 1rem;
+  }
+
+  .about-text p {
+    margin-left: 40px;
+    margin-top: 2rem
+  }
+}
+
+
+#projects {
+
+  padding-top: 80px;
+  background-color: #e1e3e3
+}
+
+#projects .card-box {
+  box-shadow: 10px 8px 10px #f0f0f0;
+  margin-bottom: 2rem;
+}
+
+
+
+.button {
+  background-color: #f4af30;
+  border: 2px solid #d99009;
+  color: #ffffff;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 6px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #f4a108;
+  border: 2px solid #d88c00;
+  color: #ffffff;
+}
+
+h3 {
+  text-align: center
+}
+
+
+.contact-section {
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+
+.contact-section .info-box {
+  background-color: #7fffd4;
+  box-shadow: 10px 8px 10px #e1e3e3
+}
+
+.contact-section .info-box:hover {
+  background-color: #2dc997;
+  box-shadow: 10px 8px 10px #7fffd4
+}
+
+.contact-section .info-box i {
+  font-size: 25px
+}
+
+.contact-section .info-box a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #e1e3e3
+}

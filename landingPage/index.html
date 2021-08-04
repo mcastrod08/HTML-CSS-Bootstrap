@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="logo" src="">
+      <a href="#welcome"><img id="header-img" src="./src/logoMC.png" alt="MC Logo"></a>
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#welcome">Home</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#videoLink">Video</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome" class="welcome-section">
+      <h2 class="connect">Welcome!!</h2>
+      <p>This is a very simple Landing Page, only to complete the FreeCodeCamp Course</p>
+    </section>
+    <section id="contact" class="email-section">
+      <h2 class="connect">Connect with me</h2>
+      <form id="form" action="">
+        <div class="form-group">
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required />
+        </div>
+        <div class="form-group">
+          <input type="submit" id="submit" value="Get Started" class="submit-button" />
+        </div>
+      </form>
+    </section>
+    <section id="features" class="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-key"></i></div>
+        <div class="desc">
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem lorem, ullamcorper non elit in, consectetur consequat massa. Fusce sed nisl posuere, volutpat quam sed, aliquam libero. Duis vel nibh in diam consequat rhoncus id ut purus. Duis tempor tellus nec elit molestie venenatis. In hac habitasse platea dictumst
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-check"></i></div>
+        <div class="desc">
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem lorem, ullamcorper non elit in, consectetur consequat massa. Fusce sed nisl posuere, volutpat quam sed, aliquam libero.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Lorem Ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem lorem, ullamcorper non elit in, consectetur consequat massa. Fusce sed nisl posuere, volutpat quam sed, aliquam libero.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="videoLink" class="video-section">
+      <video id="video" class="video" controls>
+        <source src="src/stopMotion.mp4" type="video/mp4">
+      </video>
+    </section>
+    <footer>
+      <span>&copy; Maria Castro</span>
+    </footer>
+  </main>
+</body>
+
+</html>
