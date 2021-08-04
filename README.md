@@ -1,23 +1,23 @@
 # Html-CSS-Bootstrap
 
-## Demos - FreeCodeCamp Course
+### Demos - FreeCodeCamp Course
 
-## Portfolio
+### Portfolio
 https://codepen.io/marivicastro/full/xxRWVov
 
-## Landing Page
+### Landing Page
 https://codepen.io/marivicastro/full/jOVYRow
 
-## Survey Form
+### Survey Form
 https://codepen.io/marivicastro/full/vYyWrzJ
 
-## technical Documentation
+### technical Documentation
 https://codepen.io/marivicastro/full/NWbyGMJ
 
-## Tribute Page
+### Tribute Page
 https://codepen.io/marivicastro/full/qBqVpWM
 
 _______________________________________________
-## InstaFb Combined, is a instagram and facebook look alike, combined.
-HTML, CSS, BOOTSTRAP and some jQuery
+### InstaFb, Instagram and Facebook look alike, combined.
+HTML, CSS, Bootstrap and some jQuery
 No demo available yet
