@@ -19,5 +19,5 @@ https://codepen.io/marivicastro/full/qBqVpWM
 
 _______________________________________________
 ### InstaFb, Instagram and Facebook look alike, combined.
-HTML, CSS, Bootstrap and some jQuery
+HTML, CSS, javaScript, Bootstrap 
 https://mcastrod08.github.io/HTML-CSS-Bootstrap/InstaFb_combined/index.html
