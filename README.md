@@ -1,4 +1,4 @@
-# Html-CSS-Bootstrap
+# HTML-CSS-Bootstrap
 
 ### Demos - FreeCodeCamp Course
 
@@ -11,7 +11,7 @@ https://codepen.io/marivicastro/full/jOVYRow
 ### Survey Form
 https://codepen.io/marivicastro/full/vYyWrzJ
 
-### technical Documentation
+### Technical Documentation
 https://codepen.io/marivicastro/full/NWbyGMJ
 
 ### Tribute Page
